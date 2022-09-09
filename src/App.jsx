@@ -14,12 +14,12 @@ function App() {
 
   return (
     <div className="App">
-        <Form setNumber={setNumber}/>
-        <Calculator setResult={setResult} n={number}/>
-        {
-        number !== undefined ?  <Result number={number} result={result}/> : <h1>Waiting for data</h1>
-        }
-        
+      <Form setNumber={setNumber} />
+      <Calculator setResult={setResult} n={number} />
+      {
+        number !== undefined ? <Result number={number} result={result} /> : <h1>Waiting for data</h1>
+      }
+
     </div>
   )
 }
