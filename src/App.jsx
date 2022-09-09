@@ -7,10 +7,10 @@ import Result from './components/Result'
 
 
 function App() {
-  const [number, setNumber] = useState(undefined)
+  const [number, setNumber] = useState()
   const [result, setResult] = useState()
 
-  console.log(result)
+
 
   return (
     <div className="App">

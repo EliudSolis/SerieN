@@ -1,8 +1,8 @@
 
 
 export const nthFibonacciFactor = (n) => {
-    let first = 1
     let last = 0
+    let first = 1
     let index = 0
     while (index < n) {
         const pivot = last
@@ -12,6 +12,8 @@ export const nthFibonacciFactor = (n) => {
     }
     return last
 }
+
+
 
 export const nthPrimeFactor = (n) => {
     let index = 0
